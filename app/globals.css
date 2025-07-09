@@ -9,5 +9,48 @@ html {
 }
 
 body {
-  transition: background-color 0.3s, color 0.3s;
+  color: #111;
+  background-color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.dark body {
+  color: #f3f4f6;
+  background-color: #111827;
+}
+
+h1, .text-5xl, .text-6xl, .text-7xl, .text-[4.5rem], .font-extrabold {
+  color: #111;
+  font-family: inherit;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.dark h1, .dark .text-5xl, .dark .text-6xl, .dark .text-7xl, .dark .text-[4.5rem], .dark .font-extrabold {
+  color: #f3f4f6;
+}
+
+h2, .text-4xl, .font-bold {
+  color: #444;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.dark h2, .dark .text-4xl, .dark .font-bold {
+  color: #e5e7eb;
+}
+
+a, .text-teal-600, .text-teal-700, .text-teal-400, .text-teal-300 {
+  color: #14b8a6;
+}
+
+button, .bg-teal-600, .hover\:bg-teal-700, .focus\:bg-teal-800 {
+  background-color: #14b8a6;
+}
+
+/* Ensure all text is readable and accessible */
+* {
+  font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 } 
