@@ -1,19 +1,19 @@
 import Hero from '../components/Hero';
-import About from '../components/About';
-import MissionVision from '../components/MissionVision';
-import Products from '../components/Products';
-import Technologies from '../components/Technologies';
-import Contact from '../components/Contact';
+import TrustPitch from '../components/TrustPitch';
+import UAIOffer from '../components/UAIOffer';
+import WhySenthira from '../components/WhySenthira';
+import FounderStory from '../components/FounderStory';
+import CTASection from '../components/CTASection';
 
 export default function HomePage() {
   return (
     <>
       <Hero />
-      <MissionVision />
-      <Products />
-      <Technologies />
-      <About />
-      <Contact />
+      <TrustPitch />
+      <UAIOffer />
+      <WhySenthira />
+      <FounderStory />
+      <CTASection />
     </>
   );
 } 

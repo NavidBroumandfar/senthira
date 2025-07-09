@@ -5,8 +5,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 export const metadata = {
-  title: 'Senthira – AI Solutions Website',
-  description: 'Cutting-edge AI solutions for ambitious businesses.',
+  title: 'Senthira – Usable AI for Real Businesses',
+  description: 'You run the business. We build the AI. Transform your business with AI-powered solutions that actually work.',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body className="bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100 transition-colors duration-300 min-h-screen flex flex-col">
         <ThemeProvider>
           <Header />
-          <main className="flex-1 flex flex-col items-center w-full px-4">
+          <main className="flex-1 flex flex-col items-center w-full">
             {children}
           </main>
           <Footer />
