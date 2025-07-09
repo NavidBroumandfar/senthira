@@ -27,9 +27,9 @@ export default function Hero() {
 
   return (
     <section className="relative w-full flex flex-col items-center justify-center text-center py-20 md:py-32 px-4 overflow-hidden">
-      {/* Soft SVG background */}
+      {/* Soft SVG blob background */}
       <svg
-        className="absolute inset-0 w-full h-full z-0 pointer-events-none opacity-40 dark:opacity-30"
+        className="absolute -top-32 left-1/2 -translate-x-1/2 w-[120vw] h-[80vh] z-0 pointer-events-none opacity-60 dark:opacity-40 blur-2xl"
         aria-hidden="true"
         viewBox="0 0 1440 600"
         fill="none"
@@ -37,8 +37,8 @@ export default function Hero() {
         preserveAspectRatio="none"
       >
         <ellipse cx="720" cy="300" rx="700" ry="220" fill="#14b8a6" fillOpacity="0.10" />
-        <ellipse cx="720" cy="400" rx="500" ry="120" fill="#14b8a6" fillOpacity="0.08" />
-        <ellipse cx="720" cy="200" rx="400" ry="100" fill="#14b8a6" fillOpacity="0.07" />
+        <ellipse cx="900" cy="400" rx="400" ry="120" fill="#14b8a6" fillOpacity="0.08" />
+        <ellipse cx="540" cy="200" rx="300" ry="100" fill="#14b8a6" fillOpacity="0.07" />
       </svg>
       {/* Lottie background animation */}
       <div className="absolute inset-0 w-full h-full flex items-center justify-center pointer-events-none z-0 opacity-60 dark:opacity-40">
@@ -55,7 +55,7 @@ export default function Hero() {
       </div>
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center w-full">
-        <h1 className="text-5xl md:text-7xl lg:text-[4.5rem] font-extrabold mb-8 tracking-tight text-gray-900 dark:text-gray-100 leading-tight">
+        <h1 className="text-5xl md:text-8xl lg:text-[5.5rem] font-extrabold mb-8 tracking-tight text-gray-900 dark:text-gray-100 leading-tight">
           Usable AI for Real Businesses.
         </h1>
         <p className="text-xl md:text-2xl lg:text-3xl text-gray-700 dark:text-gray-200 mb-12 max-w-4xl leading-relaxed">
@@ -72,7 +72,7 @@ export default function Hero() {
           <button
             onClick={scrollToDemo}
             aria-label="See how Senthira works"
-            className="px-8 py-4 rounded-lg border-2 border-teal-400 text-teal-700 dark:text-teal-300 font-semibold text-lg transition-colors duration-300 hover:bg-teal-50 dark:hover:bg-teal-900 focus:bg-teal-100 dark:focus:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:ring-offset-2 cursor-pointer"
+            className="px-8 py-4 rounded-lg bg-teal-500 text-white font-semibold text-lg shadow-lg border-2 border-teal-400 transition-colors duration-300 hover:bg-teal-600 hover:text-white focus:bg-teal-700 focus:text-white focus:outline-none focus:ring-2 focus:ring-teal-400 focus:ring-offset-2 cursor-pointer"
           >
             See how it works
           </button>
