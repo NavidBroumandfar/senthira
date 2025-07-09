@@ -19,7 +19,8 @@ export default function CTASection() {
         </p>
         <button
           onClick={scrollToContact}
-          className="px-12 py-4 rounded-lg bg-white text-blue-600 font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-600"
+          aria-label="Book a call with Senthira"
+          className="px-12 py-4 rounded-lg bg-white text-blue-600 font-semibold text-lg shadow-lg transition-colors duration-300 hover:bg-blue-50 focus:bg-blue-100 hover:text-blue-700 focus:text-blue-800 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-600 cursor-pointer"
         >
           Book a Call
         </button>

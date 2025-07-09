@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function WhySenthira() {
   return (
     <section className="w-full py-16 md:py-24 px-4 bg-gray-50 dark:bg-gray-900">
@@ -10,10 +12,8 @@ export default function WhySenthira() {
             We understand what keeps you up at night, and we've built solutions that actually work.
           </p>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
-          {/* Usable by design */}
-          <div className="text-center">
+          <div className="text-center bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
             <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-6">
               <span className="text-3xl">✨</span>
             </div>
@@ -24,9 +24,7 @@ export default function WhySenthira() {
               We build AI systems that your team can actually use. No complex interfaces, no steep learning curves—just powerful tools that feel natural.
             </p>
           </div>
-
-          {/* Trust through clarity */}
-          <div className="text-center">
+          <div className="text-center bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
             <div className="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto mb-6">
               <span className="text-3xl">🔒</span>
             </div>
@@ -37,9 +35,7 @@ export default function WhySenthira() {
               Complete transparency in how your AI works. No black boxes, no hidden costs. You always know what's happening and why.
             </p>
           </div>
-
-          {/* Built in days, not months */}
-          <div className="text-center">
+          <div className="text-center bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
             <div className="w-16 h-16 bg-orange-100 dark:bg-orange-900 rounded-full flex items-center justify-center mx-auto mb-6">
               <span className="text-3xl">⏱️</span>
             </div>
